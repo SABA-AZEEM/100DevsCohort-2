@@ -13,20 +13,98 @@
             border-radius: 1rem;
             text-align: center;
         }
-        section{
+        .first section{
+            float: left;
+            width: 45%;
+        }
+        .first aside{
+            float: right;
+            width: 45%;
+        }
+        .second{
+            margin-top: 10rem;
+        }
+        .second section{
             float: left;
             width: 30%;
         }
         footer{
             clear: both;
         }
+        .third{
+            margin-top: 5rem;
+            border: 3px solid black;
+            padding: 3rem;
+            margin: 4rem;
+        }
+        .third img{
+            float: left;
+            width: 300px;
+        }
+        .third p{
+            background-color: red;
+        }
+        .forth{
+            margin-top: 5rem;
+            border: 3px solid black;
+            margin: 3rem;
+            padding: 3rem;
+        }
+        .forth footer{
+            clear: none;
+        }
+        .group:before,.group:after{
+            content: "";
+            display: table;
+        }
+        .group:after {
+            clear: both;
+        }
+        .group {
+            clear: both;
+        }
+        .group section {
+            float: left;
+            margin: 0 1.5%;
+            width: 63%;
+            }
+         .group aside {
+            float: right;
+            margin: 0 1.5%;
+            width: 30%;
+            }
     </style>
 </head>
 <body>
-    <header class="style">Header</header>
-    <section class="style">Section</section>
-    <section class="style">Section</section>
-    <section class="style">Section</section>
-    <footer class="style">Footer</footer>
+    <div class="first">
+        <header class="style">Header</header>
+        <section class="style">Section</section>
+        <aside class="style">Aside</aside>
+        <footer class="style">Footer</footer>
+    </div>
+
+    <div class="second">
+        <header class="style">Header</header>
+        <section class="style">Section</section>
+        <section class="style">Section</section>
+        <section class="style">Section</section>
+        <footer class="style">Footer</footer>
+    </div>
+
+    <div class="third">
+        <img src="https://d3544la1u8djza.cloudfront.net/APHI/Blog/2016/10_October/persians/Persian+Cat+Facts+History+Personality+and+Care+_+ASPCA+Pet+Health+Insurance+_+white+Persian+cat+resting+on+a+brown+sofa-min.jpg" alt="">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam debitis delectus quas necessitatibus accusamus, blanditiis corporis dolores eaque officiis vel commodi magni aliquid, rerum illo, odit id! Placeat tenetur vel, soluta cumque dignissimos dolor maxime sequi, deleniti facere exercitationem natus corporis id, illo quis nesciunt labore quae possimus distinctio sint fugiat ad quisquam commodi. Sed hic obcaecati laborum inventore autem, eum cumque minima consequatur quas? Minus aliquid corrupti beatae aut eos nemo, quisquam nobis iste earum, molestiae exercitationem quibusdam libero, vero provident natus officia consectetur cum odio? Pariatur ullam magnam corrupti, sunt ratione assumenda aspernatur iste optio ab sequi libero, vero qui hic. Eius quibusdam exercitationem consequatur placeat odit sequi magni adipisci, labore beatae repudiandae, autem eaque reiciendis. Distinctio quis repellendus eveniet iusto cumque odio eligendi molestiae temporibus, ducimus laudantium officia labore, nemo cum numquam quidem aut unde voluptatibus velit qui autem error nam? Impedit suscipit delectus animi temporibus pariatur ut optio fugiat consequuntur illum voluptas sapiente inventore non ducimus magnam quam molestiae quaerat, et illo nostrum excepturi, unde ipsum eaque? Voluptatibus eius eligendi illum ipsa voluptatum deserunt eveniet ratione, molestias officiis architecto quibusdam illo. Minus molestias esse natus accusantium fugiat velit eos voluptatum consectetur magni nobis dolore exercitationem recusandae itaque eligendi, placeat ut, eius nisi. Harum autem officia voluptates natus placeat sunt odio provident. Enim laudantium saepe architecto accusantium iste, quis, asperiores ut inventore dolore officiis sapiente quaerat reiciendis rem a error fugiat qui. Recusandae vero earum iusto ipsum non libero aliquid officia cupiditate eos fuga, enim accusantium. Fugiat totam dignissimos quas non debitis natus fuga, sapiente modi similique ad, ipsum fugit. Sapiente, tempore debitis fugit est vel dicta velit excepturi illo placeat obcaecati reprehenderit doloribus, adipisci error ipsa natus doloremque optio sunt tenetur accusamus? Fugiat ex ullam sequi at vero iure, blanditiis, quidem rerum dignissimos suscipit recusandae corrupti!
+        </p>
+    </div>
+
+    <div class="forth">
+        <header class="style">Header</header>
+        <div class="group">
+            <section class="style">Section</section>
+            <aside class="style">Aside</aside>
+        </div>
+        <footer class="style">Footer</footer>
+    </div>
 </body>
 </html>
