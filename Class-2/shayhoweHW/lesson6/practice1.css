@@ -1,0 +1,25 @@
+/* Custom style  */
+body{
+    color: red;
+    font: 900 25px/19px 'Courier New', Courier, monospace;  
+}
+h1,h2,h3,h4{
+    color: #546712;
+}
+h1{
+    font-size: 67px;
+    line-height: 44px;
+}
+h2{
+    font-size: 50px;
+    line-height: 45px;
+}
+h3{
+    font-size: 45px;
+}
+h4{
+    font-size: 30px;
+}
+h5{
+    color: hsla(30, 89%, 18%, 0.5);
+}

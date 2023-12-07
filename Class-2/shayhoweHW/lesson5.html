@@ -9,7 +9,7 @@
             background-color: green;
             color: white;
             height: 15vh;
-            margin: 2rem 1rem;
+            margin: 2rem 0;
             border-radius: 1rem;
             text-align: center;
         }
@@ -73,6 +73,15 @@
             margin: 0 1.5%;
             width: 30%;
             }
+        .inline-block{
+            border: 3px solid black;
+            margin: 0;
+        }
+        .inline-block section {
+            display: inline-block;
+            /* margin: 0 1.5%; */
+            width: 30%;
+        }
     </style>
 </head>
 <body>
@@ -105,6 +114,14 @@
             <aside class="style">Aside</aside>
         </div>
         <footer class="style">Footer</footer>
+    </div>
+
+    <div class="inline-block">
+        <header class="style">Content</header>
+        <section class="style">Content</section>
+        <section class="style">Content</section>
+        <section class="style">Content</section>
+        <footer class="style">Content</footer>
     </div>
 </body>
 </html>
